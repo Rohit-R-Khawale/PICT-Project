@@ -1,0 +1,104 @@
+.footer{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem 10rem;
+    background-color: #0B1622;
+    color: #717171;
+    padding-top: 0%;
+
+}
+.footer >div{
+    padding-top: 2rem;
+    width: 30%;
+    height: 12rem;
+    /* background-color: #1e1f25; */
+}
+.BasicSecHead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    padding-top: 0%;
+}
+.BasicInfo{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.BasicInfo > *{
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+
+
+
+.Solutions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Solutions h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    padding-top: 0;
+    height: 60%;
+}
+.Solutions a{
+text-decoration: none;
+color: #717171;
+}
+.Solutions p:hover{
+scale: 1.5;
+color:mediumseagreen;
+}
+
+
+.Contact_US{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding: 2rem; */
+    line-height: 1.5rem;
+    text-align: center; 
+    align-items: center;
+}
+.Contact_US a> h3{
+    width: max-content;
+}
+.Contact_US a{
+    padding-bottom: 0.25rem;
+    text-decoration: none;
+    color: #717171;
+    align-items: center;
+    text-align: center;
+}
+.Contact_US a:hover{
+    scale: 1.5;
+    color: darkolivegreen;
+}
+.Contact_US hr{
+    width: 80%;
+    color: #353535;
+}
+
+/* Social */
+
+.Social{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.Social img {
+    max-width: 3rem;
+    max-height: 3rem;
+}
+.Social img:hover{
+    scale: 1.5;
+}

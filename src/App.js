@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from "./Components/Navbar"
+import Footer from "./Components/Footer"
 import "./App.css"
 function App() {
 
   return (
     <div>
+      {/* -------------------------------------- HOME PAGE UNLOGINED ------------------------------*/}
       <div className="homePageUL">
         <div className="NavContainer"><Navbar/></div>
         {/* Tagline */}
@@ -28,7 +30,9 @@ function App() {
                   </div>
               </div>
             </div>
+            <Footer/>
       </div>
+      {/* ----------------------------------------HOME PAGE UNLOGINED FINISHED --------------------------- */}
     
     </div>
   )
