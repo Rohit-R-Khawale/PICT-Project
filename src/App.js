@@ -41,6 +41,7 @@ function App() {
                   </div>
               </div>
             </div>
+            {/* This is the footer of the Webpage*/}
             <Footer/>
       </div>
       {/* ----------------------------------------HOME PAGE UNLOGINED FINISHED --------------------------- */}

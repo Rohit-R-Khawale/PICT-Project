@@ -17,6 +17,7 @@ function Index(props) {
     <div>
       <div id="heading">
        {LoginStatus?
+      //  navbar Section Logined with the userProfile imsge in it
        (<div id="header">
               <div className="navbar">
                     <div className="navLeftSec">
@@ -40,6 +41,7 @@ function Index(props) {
         
        ):
        (
+        // navbar when the user is NOT LOGGED in the website....
         <div className="heading2">
           <div className="navbar" id="unloginedNav">
             <div className="navLeftSec">
@@ -72,7 +74,7 @@ function Index(props) {
         </div>
        )}
         
-
+        {/* THIS IS THE SIDEBAR SECTION OF THE WEBPAGE */}
         <div className="sideBar" id={disply}>
           <a href="#home" className="companyName">
             <h1>
